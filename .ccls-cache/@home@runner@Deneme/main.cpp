@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
 
 int tekSayiYazdir(int value) {
@@ -15,7 +15,7 @@ int tekSayiYazdir(int value) {
 
 int main(void) {
 
-  cout << tekSayiYazdir(100) << endl;
+  setlocale(LC_ALL,"Turkish");
 
   return 0;
 }
