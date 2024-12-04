@@ -1,21 +1,25 @@
 #include <iostream>
 #include <math.h>
+#include <time.h>
 using namespace std;
 
-int tekSayiYazdir(int value) {
-  for(int i=0;i<=value;i++){
-    if(i%2==1){
-      cout<<i<<endl;
-    }
-  }
-  return 0;
+string adiSoyadiYazdir(string isim, string soyisim) {
+  return isim + " " + soyisim;
 }
 
-
+bool karsilastir(bool dogruluk) {
+  if (dogruluk == true) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 int main(void) {
 
-  setlocale(LC_ALL,"Turkish");
+  setlocale(LC_ALL, "Turkish");
+  
 
+  
   return 0;
 }
